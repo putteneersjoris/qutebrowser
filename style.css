@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Jetbrains';
+    src: local('JetBrains'), url('//joris_nas/common_files/qutebrowser/font/JetBrainsMono-Regular.woff2') format('woff2');
+    }
+
+body{
+    background-color: rgb(0, 0, 0); 
+    font-family: 'JetBrains'; 
+    font-size: 0.85em;>
+}
+
+#content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-decoration: none;}
+
+#time{
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none; /* no underline */
+  }
+
+a:hover {
+    color: rgb(51, 34, 34);
+    text-decoration: none; /* no underline */
+  }
